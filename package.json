@@ -2,13 +2,16 @@
 	"name": "pipe-through-machinery",
 	"version": "1.0.0",
 	"description": "Create a node transformer pipe that passes input through a Machinepack to get output.",
-	"main": "index.js",
+	"main": "pipe-through-machinery.js",
 	"dependencies": {
 		"through2": "^2.0.0"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"machinepack-paths": "^1.2.0",
+		"stream-array": "^1.1.0"
+	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node .test/path-test-1.js"
 	},
 	"repository": {
 		"type": "git",

@@ -1,7 +1,7 @@
 var through2= require("through2")
 
 function PipeThroughMachinery(machineFn, machine){
-	return throught2(function(chunk, encoding, callback){
+	return through2.obj(function(chunk, encoding, callback){
 		machineFn.call(machine, chunk).exec({
 			success: function(result){
 				callback(null, result)
