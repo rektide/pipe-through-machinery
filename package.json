@@ -1,0 +1,19 @@
+{
+	"name": "pipe-through-machinery",
+	"version": "1.0.0",
+	"description": "Create a node transformer pipe that passes input through a Machinepack to get output.",
+	"main": "index.js",
+	"dependencies": {
+		"through2": "^2.0.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://archive.voodoowarez.com/pipe-through-machinery"
+	},
+	"author": "rektide de la faye",
+	"license": "X"
+}
